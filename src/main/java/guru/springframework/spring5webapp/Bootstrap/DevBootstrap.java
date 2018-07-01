@@ -43,7 +43,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
         bookRepository.save(myBook);
 
         Author eric2 = new Author("Eric2", "Evan2");
-        Book myBook2 = new Book("Pinokio2", "1232", publisher);
+        Book myBook2 = new Book("Pinokio222", "1232", publisher);
         eric.getBooks().add(myBook2);
 
         authorRepository.save(eric2);
